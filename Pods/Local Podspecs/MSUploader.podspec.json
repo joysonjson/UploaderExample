@@ -1,0 +1,33 @@
+{
+  "name": "MSUploader",
+  "version": "0.1.0",
+  "summary": "MSUploader is a fileuploader to s3.",
+  "description": "'MSUploader is an awesome aid library to upload the files to s3, With progress and completion handler'",
+  "homepage": "https://github.com/joysonjson/MSUploader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "joysonjson": "joysonpathra@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/joysonjson/MSUploader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "Source/**/*.swift",
+  "dependencies": {
+    "AWSCore": [
+      "~> 2.13.4"
+    ],
+    "AWSS3": [
+      "~> 2.13.4"
+    ],
+    "AWSCognitoIdentityProvider": [
+      "~> 2.13.4"
+    ]
+  }
+}

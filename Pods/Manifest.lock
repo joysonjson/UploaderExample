@@ -1,0 +1,42 @@
+PODS:
+  - AWSCognitoIdentityProvider (2.13.4):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.13.4)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.13.4)
+  - AWSS3 (2.13.4):
+    - AWSCore (= 2.13.4)
+  - MSUploader (0.1.0):
+    - AWSCognitoIdentityProvider (~> 2.13.4)
+    - AWSCore (~> 2.13.4)
+    - AWSS3 (~> 2.13.4)
+
+DEPENDENCIES:
+  - MSUploader (from `https://github.com/joysonjson/MSUploader.git`)
+
+SPEC REPOS:
+  trunk:
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSS3
+
+EXTERNAL SOURCES:
+  MSUploader:
+    :git: https://github.com/joysonjson/MSUploader.git
+
+CHECKOUT OPTIONS:
+  MSUploader:
+    :commit: e792b7adcec0361aef42d7db27fb478c648d2630
+    :git: https://github.com/joysonjson/MSUploader.git
+
+SPEC CHECKSUMS:
+  AWSCognitoIdentityProvider: a2d1d2857316519c018c03ac8205cf78154db5c0
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 06beea22b6bdbfe9f5ab5015c6901e8475c746a8
+  AWSS3: ab3965322c8e5ee069eaf9b3201c55557ad21be1
+  MSUploader: 8afb2471366db8476895dd89932de8eb2fff28ac
+
+PODFILE CHECKSUM: 9adc3f9f128619554ea2624054bca857bc913f05
+
+COCOAPODS: 1.8.4

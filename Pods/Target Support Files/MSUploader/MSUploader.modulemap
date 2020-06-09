@@ -1,0 +1,6 @@
+framework module MSUploader {
+  umbrella header "MSUploader-umbrella.h"
+
+  export *
+  module * { export * }
+}
